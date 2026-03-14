@@ -33,8 +33,8 @@ int main() {
   printf("Codigo da Carta (Ex: A01): ");
   scanf("%s", codigo1);
 
-  printf("Nome da sua cidade: ");
-  scanf("%[^\n]" , cidade1);
+    printf("Nome da Cidade: ");
+    scanf(" %[^\n]", cidade1);
 
   printf("Populacao: ");
   scanf(" %d", &populacao1);
@@ -90,6 +90,7 @@ int main() {
     printf("Área: %.2f km²\n", area2);
     printf("PIB: %.2f bilhões de reais\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos2);
+
 
     return 0;
 
